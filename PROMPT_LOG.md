@@ -58,7 +58,6 @@
      - Xóa liên kết `"Chuyên mục đổi màu"` khỏi thanh điều hướng `<nav>` ở `<header>`, tạo sự cân đối, tinh gọn và chuyên nghiệp (chỉ giữ lại 6 mục trọng tâm: Trang chủ, Trợ lý AI, Bác sĩ Online, Cảm hứng sống khỏe, Dinh dưỡng, Vận động).
      - Giữ nguyên 100% nội dung và hiệu ứng chuyển đổi màu sắc của 6 ô thẻ bài viết trong khu vực chuyên môn (`#topics`).
 - **Nhận xét & Tinh chỉnh của SV:** Menu trở nên thoáng đãng, hiệu ứng động đạt độ chín về thị giác, trang web hoạt động mượt mà và đẳng cấp hơn hẳn.
-
 ## 3. Đánh giá cá nhân về quá trình Vibe Coding
 - AI đã giúp tôi tiết kiệm 85% thời gian trong việc xây dựng hệ thống TeleHealth, cấu trúc Layout Responsive đa thiết bị và viết code Semantic HTML chuẩn SEO.
 - Bài học rút ra: Việc liên tục tinh chỉnh (Iterative Prompting) cùng yêu cầu thẩm mỹ UI/UX cao và tiêu chuẩn lập trình khắt khe (Semantic HTML, không lạm dụng `<div>`) giúp sản phẩm đạt chất lượng tương đương sản phẩm thực tế của các nền tảng y tế hàng đầu.
