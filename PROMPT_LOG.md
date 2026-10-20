@@ -1,7 +1,7 @@
 # NHẬT KÝ PROMPT ENGINEERING (VIBE CODING LOG)
 **Họ và tên:** Trần Quốc Quang  
 **MSSV:** 125000463  
-**Tên đề tài Website:** Sức Khỏe Con Người & TeleHealth AI (Healthy Life)  
+**Tên đề tài Website:** Sức Khỏe Con Người Healthy Life
 **Công cụ AI đã sử dụng:** Gemini, Antigravity
 
 ## 1. Yêu cầu ban đầu (System/Initial Prompt)
