@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Life - Sức Khỏe Con Người | Bác Sĩ Online &amp; Hotline Tự Động 24/7</title>
+    
+    <!-- Tích hợp Font Awesome 6 (Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <!-- Tích hợp Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Tích hợp AOS.css (Scroll Animation) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Link file CSS tùy biến -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- THÀNH PHẦN 1: THANH THÔNG TIN HOTLINE KHẨN CẤP (Semantic Top Bar) -->
+    <div class="hotline-top-bar">
+        <div class="top-bar-left">
+            <span><i class="fa-solid fa-clock-rotate-left"></i> Phục vụ tự động 24/7 toàn quốc</span>
+            <span><i class="fa-solid fa-shield-halved"></i> Bảo mật thông tin y tế</span>
+        </div>
+        <div class="top-bar-right">
+            <span>Tổng đài khẩn cấp:</span>
+            <a href="tel:18006868" class="hotline-quick-link open-hotline-trigger">
+                <i class="fa-solid fa-phone-volume"></i> <strong>1800 6868</strong> (Miễn cước)
+            </a>
+        </div>
+    </div>
+
+    <!-- THÀNH PHẦN 2: HEADER CHÍNH & THANH ĐIỀU HƯỚNG (Semantic HTML) -->
+    <header class="site-header animate__animated animate__fadeInDown">
+        <div class="logo">
+            <a href="#home">
+                <i class="fa-solid fa-heart-pulse"></i>
+                <h1>Healthy<span>Life</span></h1>
+            </a>
+        </div>
+        
+        <!-- THÀNH PHẦN 3: NAV MENU (Semantic HTML) -->
+        <nav class="main-nav" aria-label="Điều hướng chính">
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#ai-assistant">Trợ lý AI</a></li>
+                <li><a href="#telehealth">Bác sĩ Online</a></li>
+                <li><a href="#inspiration">Cảm hứng sống khỏe</a></li>
+                <li><a href="#nutrition">Dinh dưỡng</a></li>
+                <li><a href="#fitness">Vận động</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-action-group">
+            <button class="btn-cta btn-hotline-nav open-hotline-trigger" title="Mở tổng đài Hotline">
+                <i class="fa-solid fa-headset"></i> Hotline 24/7
+            </button>
+            <button class="btn-cta open-chat-trigger" title="Mở khung chat AI">
+                <i class="fa-solid fa-robot"></i> Chat AI
+            </button>
+        </div>
+    </header>
+
+    <!-- THÀNH PHẦN 4: MAIN CONTENT (Semantic HTML) -->
+    <main>
+        
+        <!-- 4.1. HERO SECTION (Layout Flexbox Cân Đối & Hình Ảnh Cảm Hứng) -->
+        <section id="home" class="hero-section animate__animated animate__fadeIn">
+            <div class="hero-grid">
+                <div class="hero-text-content animate__animated animate__fadeInUp">
+                    <h2>Hành Trình Kiến Tạo <br> Sức Khỏe Toàn Diện</h2>
+                    <p>Khám phá phong cách sống tràn đầy sinh lực cùng công nghệ Y Tế Thông Minh: Kết nối bác sĩ chuyên khoa online, tự động tư vấn qua AI và hỗ trợ tổng đài khẩn cấp 24/7.</p>
+                    <div class="hero-cta-group">
+                        <button class="btn-cta btn-hero open-booking-trigger">
+                            <i class="fa-solid fa-calendar-check"></i> Đặt Lịch Khám Online
+                        </button>
+                        <a href="#inspiration" class="btn-cta btn-hero btn-hero-alt">
+                            <i class="fa-solid fa-images"></i> Cảm Hứng Sức Khỏe
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Thẻ nổi bật Hero (Hero Visual Card Preview) -->
+                <aside class="hero-card-preview animate__animated animate__fadeInUp" aria-label="Chỉ số hoạt động HealthyLife">
+                    <div class="preview-stat-row">
+                        <div class="stat-item">
+                            <strong>100%</strong>
+                            <span>Online 24/7</span>
+                        </div>
+                        <div class="stat-item">
+                            <strong>150+</strong>
+                            <span>Bác sĩ chuyên khoa</span>
+                        </div>
+                        <div class="stat-item">
+                            <strong>50k+</strong>
+                            <span>Lượt tư vấn</span>
+                        </div>
+                    </div>
+                    <div class="preview-doctor-banner">
+                        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=150&q=80" alt="Bác sĩ đang sẵn sàng">
+                        <div class="banner-desc">
+                            <h4>Dr. Healthy AI &amp; Bác Sĩ Trực</h4>
+                            <p><i class="fa-solid fa-circle"></i> Sẵn sàng kết nối qua Video / Hotline</p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- 4.2. TRỢ LÝ SỨC KHỎE AI (AVATAR HIỆU ỨNG SÓNG & CÁC NÚT TƯƠNG TÁC) -->
+        <section id="ai-assistant" class="content-section" data-aos="fade-up" data-aos-duration="900">
+            <header class="section-header">
+                <span class="section-tag"><i class="fa-solid fa-bolt"></i> Trí Tuệ Nhân Tạo Y Tế</span>
+                <h2>Trợ Lý Sức Khỏe AI 24/7</h2>
+                <p>Giải đáp thắc mắc khoa học, gợi ý thực đơn, nhắc nhở uống nước và tư vấn ban đầu ngay lập tức</p>
+            </header>
+
+            <div class="ai-assistant-wrapper">
+                <!-- Cột Avatar hiệu ứng đa tầng (Sử dụng figure / figcaption Semantic) -->
+                <figure class="avatar-figure" title="Bác sĩ Dr. Healthy AI">
+                    <div class="avatar-box">
+                        <span class="pulse-ring"></span>
+                        <span class="pulse-ring ring-delay-1"></span>
+                        <span class="pulse-ring ring-delay-2"></span>
+                        
+                        <div class="avatar-halo">
+                            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=400&q=80" alt="Avatar Bác sĩ AI">
+                        </div>
+
+                        <span class="online-badge">
+                            <span class="online-dot"></span> Trực tuyến
+                        </span>
+                    </div>
+
+                    <figcaption class="avatar-caption">
+                        <h3>Dr. Healthy AI</h3>
+                        <p>Chuyên gia Y Tế Ảo Thông Minh</p>
+                    </figcaption>
+                </figure>
+
+                <!-- Cột nội dung và bộ 3 nút hành động AI -->
+                <article class="ai-details-article">
+                    <h3>Trò Chuyện &amp; Đàm Thoại Trực Tiếp Cùng AI</h3>
+                    <p>
+                        Hệ thống AI được huấn luyện dựa trên phác đồ dinh dưỡng và thể chất chuẩn quốc tế. Bạn có thể mở khung chat tự động để nhận lời khuyên hoặc kết nối cuộc gọi thoại, video với mô phỏng trực quan.
+                    </p>
+
+                    <div class="ai-button-bar">
+                        <button class="action-btn btn-chat-primary open-chat-trigger" title="Chat tự động với AI">
+                            <i class="fa-solid fa-comments"></i> Chat Với AI Tự Động
+                        </button>
+                        <button class="action-btn btn-voice-call start-voice-call" title="Gọi thoại mô phỏng với AI">
+                            <i class="fa-solid fa-phone-volume"></i> Cuộc Gọi Thoại AI
+                        </button>
+                        <button class="action-btn btn-video-call start-video-call" title="Gọi video mô phỏng với AI">
+                            <i class="fa-solid fa-video"></i> Cuộc Gọi Video AI
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- 4.3. GẶP GỠ BÁC SĨ ONLINE (TELEHEALTH CONSULTATIONS) -->
+        <section id="telehealth" class="content-section bg-light" data-aos="fade-up" data-aos-duration="1000">
+            <header class="section-header">
+                <span class="section-tag"><i class="fa-solid fa-user-doctor"></i> Khám Bệnh Trực Tuyến</span>
+                <h2>Gặp Gỡ Bác Sĩ Online</h2>
+                <p>Đội ngũ bác sĩ chuyên khoa giàu kinh nghiệm từ các bệnh viện lớn, sẵn sàng thăm khám và tư vấn trực tiếp qua Video Call bảo mật</p>
+            </header>
+
+            <div class="telehealth-grid">
+                
+                <!-- Bác sĩ 1 -->
+                <article class="doctor-card">
+                    <header class="doctor-card-header">
+                        <figure class="doctor-figure">
+                            <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=300&q=80" alt="Bác sĩ Nguyễn Văn Hùng">
+                            <span class="verified-badge" title="Bác sĩ đã xác thực"><i class="fa-solid fa-check"></i></span>
+                        </figure>
+                        <div class="doctor-intro">
+                            <h3>BS. CKII Nguyễn Văn Hùng</h3>
+                            <p class="doctor-specialty">Chuyên khoa Tim Mạch &amp; Huyết Áp</p>
+                            <p class="doctor-hospital"><i class="fa-solid fa-hospital"></i> Bệnh viện ĐHYD • 18 năm KN</p>
+                        </div>
+                    </header>
+                    <ul class="doctor-details-list">
+                        <li><i class="fa-solid fa-star" style="color: #f59e0b;"></i> Đánh giá: <strong>5.0</strong> (142 lượt khám)</li>
+                        <li><i class="fa-solid fa-language"></i> Ngôn ngữ: Tiếng Việt, English</li>
+                        <li><i class="fa-solid fa-calendar-day"></i> Lịch trống: <time datetime="2026-10-20T14:30" class="slot-time">Hôm nay, 14:30</time></li>
+                    </ul>
+                    <div class="doctor-actions">
+                        <button class="doctor-btn doctor-btn-book open-booking-trigger" data-doctor="BS. CKII Nguyễn Văn Hùng">
+                            <i class="fa-solid fa-calendar-plus"></i> Đặt Lịch Khám
+                        </button>
+                        <button class="doctor-btn doctor-btn-video start-video-call">
+                            <i class="fa-solid fa-video"></i> Gặp Ngay
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Bác sĩ 2 -->
+                <article class="doctor-card">
+                    <header class="doctor-card-header">
+                        <figure class="doctor-figure">
+                            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=300&q=80" alt="ThS. BS Lê Mai Anh">
+                            <span class="verified-badge" title="Bác sĩ đã xác thực"><i class="fa-solid fa-check"></i></span>
+                        </figure>
+                        <div class="doctor-intro">
+                            <h3>ThS. BS Lê Mai Anh</h3>
+                            <p class="doctor-specialty">Dinh Dưỡng &amp; Chuyển Hóa</p>
+                            <p class="doctor-hospital"><i class="fa-solid fa-hospital"></i> Viện Dinh Dưỡng • 12 năm KN</p>
+                        </div>
+                    </header>
+                    <ul class="doctor-details-list">
+                        <li><i class="fa-solid fa-star" style="color: #f59e0b;"></i> Đánh giá: <strong>4.9</strong> (98 lượt khám)</li>
+                        <li><i class="fa-solid fa-language"></i> Ngôn ngữ: Tiếng Việt, Français</li>
+                        <li><i class="fa-solid fa-calendar-day"></i> Lịch trống: <time datetime="2026-10-20T15:15" class="slot-time">Hôm nay, 15:15</time></li>
+                    </ul>
+                    <div class="doctor-actions">
+                        <button class="doctor-btn doctor-btn-book open-booking-trigger" data-doctor="ThS. BS Lê Mai Anh">
+                            <i class="fa-solid fa-calendar-plus"></i> Đặt Lịch Khám
+                        </button>
+                        <button class="doctor-btn doctor-btn-video start-video-call">
+                            <i class="fa-solid fa-video"></i> Gặp Ngay
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Bác sĩ 3 -->
+                <article class="doctor-card">
+                    <header class="doctor-card-header">
+                        <figure class="doctor-figure">
+                            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=300&q=80" alt="BS. Trần Minh Tuấn">
+                            <span class="verified-badge" title="Bác sĩ đã xác thực"><i class="fa-solid fa-check"></i></span>
+                        </figure>
+                        <div class="doctor-intro">
+                            <h3>BS. Trần Minh Tuấn</h3>
+                            <p class="doctor-specialty">Y Học Thể Thao &amp; Phục Hồi</p>
+                            <p class="doctor-hospital"><i class="fa-solid fa-hospital"></i> BV Thể Thao • 10 năm KN</p>
+                        </div>
+                    </header>
+                    <ul class="doctor-details-list">
+                        <li><i class="fa-solid fa-star" style="color: #f59e0b;"></i> Đánh giá: <strong>5.0</strong> (115 lượt khám)</li>
+                        <li><i class="fa-solid fa-language"></i> Ngôn ngữ: Tiếng Việt, English</li>
+                        <li><i class="fa-solid fa-calendar-day"></i> Lịch trống: <time datetime="2026-10-20T16:00" class="slot-time">Hôm nay, 16:00</time></li>
+                    </ul>
+                    <div class="doctor-actions">
+                        <button class="doctor-btn doctor-btn-book open-booking-trigger" data-doctor="BS. Trần Minh Tuấn">
+                            <i class="fa-solid fa-calendar-plus"></i> Đặt Lịch Khám
+                        </button>
+                        <button class="doctor-btn doctor-btn-video start-video-call">
+                            <i class="fa-solid fa-video"></i> Gặp Ngay
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- 4.4. HÌNH ẢNH CẢM HỨNG SỨC KHỎE (HEALTH INSPIRATION GALLERY) -->
+        <section id="inspiration" class="content-section" data-aos="fade-up" data-aos-duration="1000">
+            <header class="section-header">
+                <span class="section-tag"><i class="fa-solid fa-seedling"></i> Năng Lượng &amp; Lối Sống</span>
+                <h2>Cảm Hứng Sống Khỏe Mỗi Ngày</h2>
+                <p>Khơi dậy niềm đam mê chăm sóc bản thân với những hình ảnh tích cực về dinh dưỡng, yoga và rèn luyện thể chất</p>
+            </header>
+
+            <div class="inspiration-grid">
+                
+                <!-- Hình ảnh 1: Dinh dưỡng sạch -->
+                <figure class="inspire-card" data-topic="nutrition" tabindex="0" role="button" title="Bấm vào để xem cẩm nang dinh dưỡng">
+                    <div class="inspire-thumb-frame">
+                        <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=80" alt="Bữa ăn Eat Clean giàu dinh dưỡng" loading="lazy">
+                        <span class="inspire-tag"><i class="fa-solid fa-leaf"></i> Ăn Sạch (Eat Clean)</span>
+                    </div>
+                    <figcaption class="inspire-caption">
+                        <h3>Dinh Dưỡng Tươi Mới</h3>
+                        <p>Thực đơn màu sắc với rau củ quả hữu cơ giúp nuôi dưỡng từng tế bào, thanh lọc cơ thể và ngăn ngừa lão hóa sớm.</p>
+                        <span class="inspire-tip"><i class="fa-solid fa-lightbulb"></i> Mẹo: Ăn ít nhất 5 phần rau củ/ngày</span>
+                    </figcaption>
+                    <div class="inspire-click-indicator">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> Bấm để xem cẩm nang chi tiết
+                    </div>
+                </figure>
+
+                <!-- Hình ảnh 2: Yoga & Thiền -->
+                <figure class="inspire-card" data-topic="yoga" tabindex="0" role="button" title="Bấm vào để xem cẩm nang yoga">
+                    <div class="inspire-thumb-frame">
+                        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=700&q=80" alt="Tập Yoga đón bình minh" loading="lazy">
+                        <span class="inspire-tag"><i class="fa-solid fa-spa"></i> Thiền &amp; Yoga</span>
+                    </div>
+                    <figcaption class="inspire-caption">
+                        <h3>Cân Bằng Thân - Tâm - Trí</h3>
+                        <p>30 phút yoga buổi sáng giải phóng căng cứng cột sống, kích hoạt luân xa và mang lại sự bình yên trong tâm hồn.</p>
+                        <span class="inspire-tip"><i class="fa-solid fa-lightbulb"></i> Mẹo: Hít thở sâu với kỹ thuật 4-7-8</span>
+                    </figcaption>
+                    <div class="inspire-click-indicator">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> Bấm để xem cẩm nang chi tiết
+                    </div>
+                </figure>
+
+                <!-- Hình ảnh 3: Chạy bộ & Cardio -->
+                <figure class="inspire-card" data-topic="cardio" tabindex="0" role="button" title="Bấm vào để xem cẩm nang cardio">
+                    <div class="inspire-thumb-frame">
+                        <img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=700&q=80" alt="Chạy bộ buổi sớm ngoài thiên nhiên" loading="lazy">
+                        <span class="inspire-tag"><i class="fa-solid fa-person-running"></i> Sức Bền Tim Mạch</span>
+                    </div>
+                    <figcaption class="inspire-caption">
+                        <h3>Đánh Thức Nguồn Sinh Lực</h3>
+                        <p>Những bước chạy ngoài thiên nhiên phóng thích hormone Endorphin hưng phấn, tăng thể tích phổi và củng cố tim mạch.</p>
+                        <span class="inspire-tip"><i class="fa-solid fa-lightbulb"></i> Mẹo: Duy trì nhịp tim vùng 2 (Fat Burn)</span>
+                    </figcaption>
+                    <div class="inspire-click-indicator">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> Bấm để xem cẩm nang chi tiết
+                    </div>
+                </figure>
+
+            </div>
+        </section>
+
+        <!-- 4.5. CÁC Ô CHUYỂN MÀU KHI DI CHUỘT (COLOR CHANGING CARDS) -->
+        <section id="topics" class="content-section bg-light" data-aos="fade-up" data-aos-duration="1000">
+            <header class="section-header">
+                <span class="section-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> Lĩnh Vực Chăm Sóc Toàn Diện</span>
+                <h2>Chuyên Mục Sức Khỏe Chuyên Sâu</h2>
+                <p>Di chuột vào các ô bên dưới để trải nghiệm hiệu ứng chuyển đổi màu sắc sống động và tiếp nhận kiến thức y khoa hữu ích</p>
+            </header>
+
+            <div class="color-tiles-grid">
+                
+                <!-- Ô 1: Dinh Dưỡng Xanh (Chuyển sang Xanh Ngọc Emerald khi hover) -->
+                <article class="color-tile tile-emerald">
+                    <div class="tile-icon">
+                        <i class="fa-solid fa-apple-whole"></i>
+                    </div>
+                    <h3>Dinh Dưỡng Xanh</h3>
+                    <p>Ăn sạch, hạn chế chất béo bão hòa, bổ sung chất xơ và vitamin tự nhiên giúp hệ tiêu hóa khỏe mạnh và làn da sáng rạng ngời.</p>
+                    <a href="#nutrition" class="tile-footer-link">
+                        Xem chi tiết <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </article>
+
+                <!-- Ô 2: Luyện Tập (Chuyển sang Xanh Biển Điện khi hover) -->
+                <article class="color-tile tile-blue">
+                    <div class="tile-icon">
+                        <i class="fa-solid fa-person-running"></i>
+                    </div>
+                    <h3>Vận Động &amp; Cardio</h3>
+                    <p>Tăng cường sức bền tim mạch, đẩy mạnh lưu thông máu và giảm 40% nguy cơ đột quỵ với 30 phút chạy bộ hoặc đạp xe mỗi ngày.</p>
+                    <a href="#fitness" class="tile-footer-link">
+                        Xem chi tiết <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </article>
+
+                <!-- Ô 3: Giấc Ngủ (Chuyển sang Tím Hoàng Hôn khi hover) -->
+                <article class="color-tile tile-purple">
+                    <div class="tile-icon">
+                        <i class="fa-solid fa-moon"></i>
+                    </div>
+                    <h3>Giấc Ngủ &amp; Trí Não</h3>
+                    <p>Giấc ngủ sâu từ 7 - 8 tiếng là thời gian vàng để não bộ đào thải độc tố beta-amyloid và tái tạo năng lượng cho ngày mới.</p>
+                    <a href="#ai-assistant" class="tile-footer-link open-chat-trigger">
+                        Tư vấn giấc ngủ <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </article>
+
+                <!-- Ô 4: Đốt Năng Lượng (Chuyển sang Cam Rực Rỡ khi hover) -->
+                <article class="color-tile tile-orange">
+                    <div class="tile-icon">
+                        <i class="fa-solid fa-fire-flame-curved"></i>
+                    </div>
+                    <h3>Đốt Mỡ &amp; Thể Lực</h3>
+                    <p>Tập kháng lực kết hợp HIIT đẩy nhanh tốc độ trao đổi chất, tiêu hao mỡ thừa ngay cả khi bạn đang trong trạng thái nghỉ ngơi.</p>
+                    <a href="#fitness" class="tile-footer-link">
+                        Xem chi tiết <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </article>
+
+                <!-- Ô 5: Thiền Định (Chuyển sang Hồng Năng Động khi hover) -->
+                <article class="color-tile tile-pink">
+                    <div class="tile-icon">
+                        <i class="fa-solid fa-spa"></i>
+                    </div>
+                    <h3>Thư Giãn Giảm Stress</h3>
+                    <p>Thiền định tĩnh tâm và kỹ thuật thở sâu giúp hạ nhanh hormone Cortisol, xua tan áp lực công việc và duy trì tâm lý tích cực.</p>
+                    <a href="#ai-assistant" class="tile-footer-link open-chat-trigger">
+                        Trò chuyện AI <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </article>
+
+                <!-- Ô 6: Nước Khoáng (Chuyển sang Xanh Ngọc Aqua khi hover) -->
+                <article class="color-tile tile-teal">
+                    <div class="tile-icon">
+                        <i class="fa-solid fa-droplet"></i>
+                    </div>
+                    <h3>Cân Bằng Nước &amp; Khoáng</h3>
+                    <p>Uống nước theo công thức 40ml/kg cân nặng giúp bảo vệ thận, thải độc cơ thể và duy trì độ ẩm lý tưởng cho làn da.</p>
+                    <a href="#nutrition" class="tile-footer-link">
+                        Xem chi tiết <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- 4.6. BANNER TỔNG ĐÀI HOTLINE TỰ ĐỘNG 24/7 -->
+        <section id="hotline-banner" class="hotline-banner-section" data-aos="fade-up">
+            <div class="hotline-banner-card">
+                <div class="hotline-info-box">
+                    <h2>Tổng Đài Y Tế Tự Động <span>1800 6868</span></h2>
+                    <p>Hệ thống chuyển mạch tự động phân luồng cuộc gọi cấp cứu, tư vấn dinh dưỡng và kết nối bác sĩ trực ban hoàn toàn miễn cước.</p>
+                </div>
+                <div class="hotline-call-box">
+                    <div class="hotline-number-display">
+                        <span>Hotline 24/7 Miễn Cước</span>
+                        <strong>1800 6868</strong>
+                    </div>
+                    <button class="btn-hotline-call open-hotline-trigger">
+                        <i class="fa-solid fa-phone-volume"></i> Gọi Hotline Ngay
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4.7. DINH DƯỠNG CƠ BẢN -->
+        <section id="nutrition" class="content-section" data-aos="fade-up">
+            <header class="section-header">
+                <h2>Dinh Dưỡng Hợp Lý</h2>
+                <p>Nền tảng của một cơ thể cường tráng và dẻo dai</p>
+            </header>
+            
+            <div class="telehealth-grid">
+                <article class="color-tile tile-emerald">
+                    <div class="tile-icon"><i class="fa-solid fa-bowl-rice"></i></div>
+                    <h3>Ăn Sạch, Sống Khỏe (Eat Clean)</h3>
+                    <p>Cung cấp đầy đủ vitamin, enzyme và chất xơ từ các loại hạt, rau củ và trái cây tươi. Giảm tối đa đường tinh luyện và chất béo bão hòa.</p>
+                </article>
+                <article class="color-tile tile-blue">
+                    <div class="tile-icon"><i class="fa-solid fa-bottle-water"></i></div>
+                    <h3>Quy Tắc Uống Nước Khoa Học</h3>
+                    <p>Duy trì ít nhất 2 lít nước mỗi ngày theo khung giờ vàng: 1 ly khi thức dậy, 1 ly trước bữa ăn 30 phút và 1 ly trước khi tắm/ngủ.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- 4.8. VẬN ĐỘNG MỖI NGÀY -->
+        <section id="fitness" class="content-section bg-light" data-aos="fade-up">
+            <header class="section-header">
+                <h2>Vận Động Mỗi Ngày</h2>
+                <p>Khởi động cơ bắp, đánh thức nguồn năng lượng tiềm ẩn</p>
+            </header>
+            
+            <div class="telehealth-grid">
+                <article class="color-tile tile-orange">
+                    <div class="tile-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <h3>Cardio &amp; Hệ Tim Mạch</h3>
+                    <p>Chạy bộ, bơi lội hoặc đạp xe cường độ vừa phải 30 phút mỗi ngày giúp tăng cường tuần hoàn máu, giải phóng Endorphin giảm mệt mỏi.</p>
+                </article>
+                <article class="color-tile tile-purple">
+                    <div class="tile-icon"><i class="fa-solid fa-person-praying"></i></div>
+                    <h3>Yoga &amp; Kéo Giãn Khớp</h3>
+                    <p>Giải phóng áp lực lên cột sống sau nhiều giờ ngồi làm việc máy tính, tăng tính linh hoạt của các khớp xương và cải thiện tư thế đứng.</p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ======================================================================
+         THÀNH PHẦN 5: WIDGET CHAT AI NỔI (Semantic Aside)
+         ====================================================================== -->
+    <aside id="ai-chat-aside" class="floating-chat-aside" aria-label="Khung Chat Trợ Lý AI">
+        <!-- Nút tròn nổi mở Chat -->
+        <button id="chat-toggle-btn" class="chat-trigger-btn" title="Chat với Dr. Healthy AI 24/7">
+            <i class="fa-solid fa-robot"></i>
+            <span class="chat-badge">1</span>
+        </button>
+
+        <!-- Khung hội thoại AI chính -->
+        <div id="ai-chat-widget" class="ai-chat-box">
+            <header class="chat-box-header">
+                <div class="chat-header-user">
+                    <figure class="chat-mini-avatar" style="margin: 0;">
+                        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=120&q=80" alt="Mini Avatar AI">
+                    </figure>
+                    <div class="chat-header-info">
+                        <h4>Dr. Healthy AI</h4>
+                        <span class="chat-status-text"><span class="dot"></span> Tự động hỗ trợ 24/7</span>
+                    </div>
+                </div>
+                <div class="chat-header-actions">
+                    <button class="chat-header-btn start-voice-call" title="Chuyển sang gọi thoại">
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                    <button class="chat-header-btn start-video-call" title="Chuyển sang gọi video">
+                        <i class="fa-solid fa-video"></i>
+                    </button>
+                    <button id="close-chat-btn" class="chat-header-btn" title="Đóng cửa sổ">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </header>
+
+            <div id="chat-messages" class="chat-messages">
+                <div class="message ai-message animate__animated animate__fadeInUp">
+                    <div class="msg-avatar">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <div class="msg-content">
+                        <div class="msg-bubble">
+                            Xin chào! Tôi là <strong>Dr. Healthy AI</strong> 🩺. Bạn cần hỗ trợ tư vấn dinh dưỡng, bài tập, đặt lịch bác sĩ online hay gọi hotline khẩn cấp 1800 6868?
+                        </div>
+                        <span class="msg-time">Vừa xong • AI Doctor</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gợi ý câu hỏi nhanh (Quick Chips) -->
+            <div class="quick-chips-wrapper">
+                <button class="chip-btn" data-prompt="Tư vấn thực đơn dinh dưỡng Eat Clean giúp tôi">🥗 Thực đơn ăn sạch</button>
+                <button class="chip-btn" data-prompt="Cách tính lượng nước uống chuẩn mỗi ngày">💧 Lượng nước mỗi ngày</button>
+                <button class="chip-btn" data-prompt="Tôi muốn đặt lịch gặp bác sĩ online">👨‍⚕️ Khám bác sĩ online</button>
+                <button class="chip-btn" data-prompt="Số điện thoại hotline cấp cứu tự động là bao nhiêu?">📞 Hotline tự động</button>
+                <button class="chip-btn" data-prompt="Cách thở giảm stress 4-7-8 hiệu quả">🧘 Kỹ thuật giảm stress</button>
+            </div>
+
+            <!-- Ô nhập liệu và gửi câu hỏi -->
+            <div class="chat-input-bar">
+                <input type="text" id="chat-input" placeholder="Hỏi AI về sức khỏe hoặc bác sĩ..." autocomplete="off">
+                <button id="send-chat-btn" class="send-btn" title="Gửi tin nhắn">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </aside>
+
+    <!-- ======================================================================
+         MODAL 1: ĐẶT LỊCH BÁC SĨ ONLINE (Form Semantic)
+         ====================================================================== -->
+    <div id="booking-modal" class="modal-overlay">
+        <div class="booking-modal-card animate__animated animate__zoomIn">
+            <header class="booking-modal-header">
+                <h3><i class="fa-solid fa-calendar-check"></i> Đặt Lịch Khám Bác Sĩ Online</h3>
+                <button id="close-booking-btn" class="close-modal-btn" title="Đóng modal">&times;</button>
+            </header>
+
+            <form id="doctor-booking-form" class="booking-form">
+                <div id="booking-success-alert" class="booking-success-alert">
+                    <i class="fa-solid fa-circle-check"></i> <strong>Đặt lịch thành công!</strong> Mã phòng khám video của bạn là <strong>#MED-2026-ONLINE</strong>. Bác sĩ sẽ liên hệ đúng giờ hẹn.
+                </div>
+
+                <fieldset class="booking-fieldset">
+                    <legend>Thông tin người khám</legend>
+                    <div class="form-grid-2">
+                        <div class="form-group">
+                            <label for="patient-name">Họ và tên *</label>
+                            <input type="text" id="patient-name" placeholder="Nguyễn Văn A" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="patient-phone">Số điện thoại *</label>
+                            <input type="tel" id="patient-phone" placeholder="0912 345 678" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="booking-fieldset">
+                    <legend>Chọn bác sĩ &amp; Thời gian</legend>
+                    <div class="form-group">
+                        <label for="booking-doctor-select">Bác sĩ chuyên khoa</label>
+                        <select id="booking-doctor-select">
+                            <option value="BS. CKII Nguyễn Văn Hùng">BS. CKII Nguyễn Văn Hùng - Tim Mạch &amp; Huyết Áp</option>
+                            <option value="ThS. BS Lê Mai Anh">ThS. BS Lê Mai Anh - Dinh Dưỡng &amp; Chuyển Hóa</option>
+                            <option value="BS. Trần Minh Tuấn">BS. Trần Minh Tuấn - Y Học Thể Thao &amp; Phục Hồi</option>
+                        </select>
+                    </div>
+
+                    <div class="form-grid-2">
+                        <div class="form-group">
+                            <label for="booking-date">Ngày khám</label>
+                            <input type="date" id="booking-date" value="2026-10-20">
+                        </div>
+                        <div class="form-group">
+                            <label for="booking-time">Khung giờ</label>
+                            <select id="booking-time">
+                                <option value="14:30 - 15:00">14:30 - 15:00 (Sẵn sàng)</option>
+                                <option value="15:15 - 15:45">15:15 - 15:45</option>
+                                <option value="16:00 - 16:30">16:00 - 16:30</option>
+                                <option value="19:00 - 19:30">19:00 - 19:30 (Buổi tối)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="booking-note">Mô tả triệu chứng sơ bộ</label>
+                        <textarea id="booking-note" rows="2" placeholder="Ví dụ: Đau đầu nhẹ, cần tư vấn thực đơn giảm cân..."></textarea>
+                    </div>
+                </fieldset>
+
+                <button type="submit" class="btn-submit-booking">
+                    <i class="fa-solid fa-circle-check"></i> Xác Nhận Đặt Lịch Online
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ======================================================================
+         MODAL 2: TỔNG ĐÀI HOTLINE TỰ ĐỘNG 24/7 (IVR Keypad)
+         ====================================================================== -->
+    <div id="hotline-modal" class="modal-overlay">
+        <div class="hotline-modal-card animate__animated animate__zoomIn">
+            <div class="hotline-icon-badge">
+                <i class="fa-solid fa-headset"></i>
+            </div>
+            <h3>Tổng Đài Y Tế Tự Động 24/7</h3>
+            <p class="hotline-subtitle">Hotline: <strong>1800 6868</strong> (Miễn cước)</p>
+            <div id="hotline-timer" class="hotline-timer">00:00</div>
+
+            <div id="hotline-status-text" class="hotline-status-box">
+                Đang kết nối vào hệ thống tổng đài tự động...
+            </div>
+
+            <!-- Bàn phím số tự động IVR -->
+            <div class="keypad-grid">
+                <button class="keypad-btn" data-digit="1">
+                    <strong>1</strong>
+                    <span>Cấp cứu</span>
+                </button>
+                <button class="keypad-btn" data-digit="2">
+                    <strong>2</strong>
+                    <span>Dinh dưỡng</span>
+                </button>
+                <button class="keypad-btn" data-digit="3">
+                    <strong>3</strong>
+                    <span>Hẹn bác sĩ</span>
+                </button>
+                <button class="keypad-btn" data-digit="4">
+                    <strong>4</strong>
+                    <span>Hỏi AI</span>
+                </button>
+                <button class="keypad-btn" data-digit="0">
+                    <strong>0</strong>
+                    <span>Menu chính</span>
+                </button>
+            </div>
+
+            <button id="close-hotline-btn" class="btn-end-hotline" title="Kết thúc cuộc gọi">
+                <i class="fa-solid fa-phone-slash"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- ======================================================================
+         MODAL 3: CUỘC GỌI THOẠI AI (Voice Call Modal)
+         ====================================================================== -->
+    <div id="voice-call-modal" class="modal-overlay">
+        <div class="hotline-modal-card animate__animated animate__zoomIn">
+            <figure class="avatar-box" style="width: 110px; height: 110px; margin: 0 auto 16px;">
+                <div class="avatar-halo">
+                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=300&q=80" alt="Avatar AI Call">
+                </div>
+            </figure>
+            <h3>Dr. Healthy AI</h3>
+            <p class="hotline-subtitle">Đang đàm thoại y tế trực tiếp</p>
+            <div id="voice-timer" class="hotline-timer">00:00</div>
+
+            <div class="soundwave-box active-call" style="display: flex; justify-content: center; gap: 6px; height: 35px; margin-bottom: 24px;">
+                <span class="bar" style="width: 5px; height: 16px; background: #38bdf8; border-radius: 3px;"></span>
+                <span class="bar" style="width: 5px; height: 26px; background: #34d399; border-radius: 3px;"></span>
+                <span class="bar" style="width: 5px; height: 35px; background: #38bdf8; border-radius: 3px;"></span>
+                <span class="bar" style="width: 5px; height: 20px; background: #34d399; border-radius: 3px;"></span>
+                <span class="bar" style="width: 5px; height: 30px; background: #38bdf8; border-radius: 3px;"></span>
+            </div>
+
+            <div style="display: flex; justify-content: center; gap: 20px;">
+                <button id="mute-voice-call" class="btn-end-hotline" style="background: #334155;" title="Tắt micro">
+                    <i class="fa-solid fa-microphone"></i>
+                </button>
+                <button id="end-voice-call" class="btn-end-hotline" title="Ngắt kết nối">
+                    <i class="fa-solid fa-phone-slash"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================================================================
+         MODAL 4: CUỘC GỌI VIDEO BÁC SĨ ONLINE (Video Call Modal)
+         ====================================================================== -->
+    <div id="video-call-modal" class="modal-overlay">
+        <div class="booking-modal-card animate__animated animate__zoomIn" style="width: 650px; background: #0f172a; color: #fff;">
+            <div style="position: relative; height: 380px; background: #000; overflow: hidden;">
+                <!-- Video mô phỏng bác sĩ -->
+                <img src="https://images.unsplash.com/photo-1622902046580-2b47f47f5471?auto=format&fit=crop&w=800&q=80" alt="Bác sĩ khám Video" style="width: 100%; height: 100%; object-fit: cover;">
+                
+                <!-- PIP Camera người bệnh -->
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=250&q=80" alt="Self Video" style="position: absolute; bottom: 16px; right: 16px; width: 110px; height: 80px; border-radius: 8px; border: 2px solid #fff; object-fit: cover;">
+
+                <div style="position: absolute; top: 16px; left: 16px; background: rgba(0,0,0,0.6); padding: 6px 12px; border-radius: 9999px; font-size: 0.8rem; display: flex; align-items: center; gap: 8px;">
+                    <span style="width: 8px; height: 8px; background: #ef4444; border-radius: 50%;"></span>
+                    <span>Phòng khám mã hóa • <strong id="video-timer">00:00</strong></span>
+                </div>
+            </div>
+
+            <div style="padding: 16px; display: flex; justify-content: center; gap: 16px; background: #1e293b;">
+                <button id="end-video-call" class="btn-end-hotline" title="Dừng cuộc gọi">
+                    <i class="fa-solid fa-phone-slash"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================================================================
+         MODAL 5: CHI TIẾT CẨM NANG CẢM HỨNG SỨC KHỎE (Inspiration Modal)
+         ====================================================================== -->
+    <div id="inspiration-modal" class="modal-overlay">
+        <div class="inspiration-modal-card animate__animated animate__zoomIn">
+            <header class="inspiration-modal-header">
+                <span class="inspire-modal-badge" id="modal-inspire-tag"><i class="fa-solid fa-leaf"></i> Dinh Dưỡng</span>
+                <button id="close-inspiration-btn" class="close-modal-btn" title="Đóng modal">&times;</button>
+            </header>
+
+            <div class="inspiration-modal-hero">
+                <img id="modal-inspire-img" src="" alt="Cẩm nang sức khỏe chi tiết">
+                <div class="inspire-modal-title-overlay">
+                    <h3 id="modal-inspire-title">Tiêu đề cẩm nang</h3>
+                    <p id="modal-inspire-quote" class="inspire-quote-text">Lời khuyên truyền cảm hứng</p>
+                </div>
+            </div>
+
+            <div class="inspiration-modal-body">
+                <!-- Lợi ích sức khỏe -->
+                <section class="inspire-detail-section">
+                    <h4><i class="fa-solid fa-star" style="color: #f59e0b;"></i> Lợi Ích Vàng Cho Cơ Thể (Khoa Học Chứng Minh)</h4>
+                    <ul id="modal-inspire-benefits" class="inspire-benefit-list">
+                        <!-- Nạp động qua JS -->
+                    </ul>
+                </section>
+
+                <!-- Lộ trình thực hành -->
+                <section class="inspire-detail-section">
+                    <h4><i class="fa-solid fa-calendar-check" style="color: #0284c7;"></i> Lịch Trình Thực Hành Chuẩn Mỗi Ngày</h4>
+                    <div id="modal-inspire-schedule" class="inspire-schedule-timeline">
+                        <!-- Nạp động qua JS -->
+                    </div>
+                </section>
+
+                <!-- Lưu ý chuyên gia -->
+                <div class="inspire-warning-box">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <div>
+                        <strong>Lưu ý từ chuyên gia:</strong>
+                        <span id="modal-inspire-mistakes">Nội dung lưu ý...</span>
+                    </div>
+                </div>
+
+                <!-- Footer hành động -->
+                <div class="inspire-modal-actions">
+                    <button id="modal-ask-ai-btn" class="btn-cta" style="background: linear-gradient(135deg, #0056b3, #0077ff);">
+                        <i class="fa-solid fa-robot"></i> Hỏi Thêm Dr. Healthy AI
+                    </button>
+                    <button class="btn-cta open-booking-trigger" style="background: linear-gradient(135deg, #10b981, #059669);">
+                        <i class="fa-solid fa-user-doctor"></i> Tư Vấn Cùng Bác Sĩ
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- THÀNH PHẦN 6: FOOTER (Semantic HTML) -->
+    <footer class="site-footer" data-aos="fade-up">
+        <div class="footer-top-grid">
+            <div class="footer-col">
+                <h4>HealthyLife Vietnam</h4>
+                <p>Nền tảng chăm sóc sức khỏe trực tuyến tích hợp Trí Tuệ Nhân Tạo AI và kết nối bác sĩ chuyên khoa đầu ngành. Đồng hành kiến tạo lối sống khỏe đẹp bền vững.</p>
+                <div class="footer-social-links">
+                    <a href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Chuyên Mục Nổi Bật</h4>
+                <ul class="footer-links-list">
+                    <li><a href="#telehealth">Bác sĩ tư vấn online</a></li>
+                    <li><a href="#inspiration">Cảm hứng sống khỏe</a></li>
+                    <li><a href="#topics">Chuyên mục sức khỏe toàn diện</a></li>
+                    <li><a href="#nutrition">Thực đơn dinh dưỡng</a></li>
+                    <li><a href="#fitness">Bài tập Cardio &amp; Yoga</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Liên Hệ &amp; Khẩn Cấp</h4>
+                <address class="footer-contact-address">
+                    <p><i class="fa-solid fa-phone" style="color: #ef4444;"></i> Hotline 24/7: <a href="tel:18006868">1800 6868</a></p>
+                    <p><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:tuvan@healthylife.vn">tuvan@healthylife.vn</a></p>
+                    <p><i class="fa-solid fa-location-dot"></i> Trụ sở: Tòa nhà Y Tế Xanh, Quận 1, TP. Hồ Chí Minh</p>
+                </address>
+            </div>
+        </div>
+
+        <div class="footer-student-bar">
+            <p>Bài thực hành Vibe Coding | Sinh viên: <strong>Trần Quốc Quang</strong> - MSSV: <strong>125000463</strong> | Đề tài: Sức Khỏe Con Người &amp; TeleHealth AI</p>
+        </div>
+    </footer>
+
+    <!-- Thư viện AOS Javascript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,           // Thời lượng lướt êm 800ms
+            easing: 'ease-out-cubic', // Gia tốc mượt mà, không giật
+            once: true,              // Chỉ kích hoạt một lần duy nhất, tránh giật lag khi cuộn ngược
+            offset: 70               // Khoảng cách cuộn kích hoạt vừa vặn
+        });
+    </script>
+    <!-- Script Logic Trợ Lý AI, Khám Online & Hotline Tự Động -->
+    <script src="script.js"></script>
+</body>
+</html>
